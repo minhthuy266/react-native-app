@@ -25,13 +25,13 @@ const Welcome = () => {
       </View>
 
       <View style={styles.searchContainer}>
-          <View style={styles.searchWrapper}>
+        <View style={styles.searchWrapper}>
           <TextInput
-          placeholderTextColor={COLORS.gray2}
+            placeholderTextColor={COLORS.gray2}
             style={styles.searchInput}
             value=""
             // onChangeText={(text) => setSearchTerm(text)}
-            placeholder='What are you looking for?'
+            placeholder="What are you looking for?"
           />
         </View>
 
