@@ -17,7 +17,7 @@ const Welcome = () => {
   const [activeJobType, setActiveJobType] = useState(["Full-time"]);
   const router = useRouter();
 
-  let a;
+  let a = 1;
 
   return (
     <View>
